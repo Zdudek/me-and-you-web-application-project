@@ -1,0 +1,189 @@
+html,body {
+    font-family: 'Quicksand', sans-serif;
+    color:black;
+    background-color: #d4e7f7;
+}
+
+a, a:active, a:focus {
+    outline: none;
+}
+
+/* Header */
+
+.header {
+    background-color:white;
+    border-bottom:3px solid #2c5e2e;
+}
+
+#main-logo {
+    padding:10px;
+    padding-left:15% !important;
+}
+
+/* Navigation Bar */
+
+.navbar-wrapper {
+    margin-top:0px;
+    padding-top:10px;
+    padding-right:15%;
+}
+
+.nav {
+    background-color:#70b85d;
+    padding:5px;
+}
+
+.nav a {
+    color:white;
+}
+
+.navbar-inverse  {
+    background-color:#2c5e2e;
+    border:3px solid;
+    border-color:#2c5e2e;
+}
+
+.nav-tabs > li > a:hover {
+    border-color:white;
+    background-color:#2c5e2e;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color:#2c5e2e;
+    color:white;
+    border-color:white;
+    font-weight:bold;
+}
+
+/* Buttons */
+
+.btn-primary {
+    background-color:#70b85d;
+    border:3px solid;
+    border-color:#2c5e2e;
+}
+
+/* Carousel */
+
+.carousel .item {
+    background-color:#0C273D;
+
+}
+
+#myCarousel {
+    width:75%;
+    margin-top:25px;
+    margin-bottom:60px;
+    margin-left:auto;
+    margin-right:auto;
+    border:1px solid;
+    border-radius:20px;
+    overflow: hidden;
+}
+
+/* Icons */
+
+.icon {
+    padding:20px !important;
+}
+
+/* Panels */
+
+
+/* Notifications */
+
+.badge {
+    background-color:#54D0ED;
+    font-size:1em;
+}
+
+/* Forms */
+
+.register select{
+    background-color:#dff0d8;
+    color:black;
+}
+
+.register input {
+    background-color:#dff0d8;
+    color:black;
+    margin-bottom:8px !important;
+}
+
+.new-search select {
+    background-color:#dff0d8;
+    color:black;
+}
+
+.new-search input {
+    background-color:#dff0d8;
+    color:black;
+    margin-bottom:8px !important;
+}
+
+/* Registration & Log-in */
+
+.registration {
+    width:80%;
+    margin:0 auto;
+}
+
+.login {
+    width:40%;
+    margin:0 auto;
+}
+
+#pass-match {
+    font-weight:bold;
+    padding:5px;
+}
+
+/* Dashboard */
+
+.cust-container {
+    max-width:55%;
+    margin:30px auto;
+    padding:15px;
+    color:white;
+    border:3px solid #2c5e2e;
+    border-radius:15px;
+    background-color:#70b85d;
+}
+
+.dashboard {
+    width:70%;
+    margin:0 auto;
+}
+
+.dash-tabs {
+    background-color:#0C273D !important;
+    border:2px solid white;
+    border-radius:10px 10px 0 0;
+}
+
+.dash-tabs > li {
+margin:1px 0 1px 0;
+}
+
+.dash-tabs > li > a:hover {
+    background-color:#113655 !important;
+    border-color:transparent;
+}
+
+.dash-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: #2c5e2e !important;
+    color:white;
+    border-color:transparent;
+    font-weight:bold;
+}
+
+/* Account */
+
+#account-details {
+    border:2px solid;
+}
+
+#account-details td {
+    border:1px solid;
+    padding:10px;
+}
